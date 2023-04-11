@@ -1,0 +1,67 @@
+---
+title: "Factors Affecting Income, Main Expense Items and Investment Preferences"
+author: 
+  - NAS, Zeynep [^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{english}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== FOOTNOTES ============================== -->
+<!-- ======================================================================= -->
+[^1]: 19080408
+
+# Introduction
+  Since the first day of humanity, many types of production-consumption, trade have been carried out on Earth. There is only one important factor that people have for this production and consumption preference: income. Income is calculated by money transfers, which have changed and developed over the centuries. The exchange made in the early times of history was later replaced by money as a final substitute exchanger. However, consumption habits have also changed and even the idea of investing has emerged so that the money held not to be spent does not lose its value or gain more value.
+  In this study, we will discuss what are the main factors affecting income, how consumption and investment habits change depending on these factors.
+The process of preparing the dataset used in this study started with the preparation of a 12-question questionnaire in Turkish, created by the project owner (Zeynep NAS) on Google Forms. (https://forms.gle/yx5Y66U1P9oqXLNr8). Later, the prepared questionnaire was directed to the appropriate people for the research question via social media. The questionnaire, which was answered by a total of 53 people, was translated from Google Spreadsheets into English, into the appropriate file (.csv) has been introduced and has become suitable for processing. 
+
+In this project, the issues to be processed through the dataset will be taken into account primarily the factors affecting income (age, job, gender, education, experience etc.), and then the basic expense item preferred according to income (food, hygiene products, clothing, education etc.) and investment (gold, foreign exchange, bonds, bills, real estate etc.) preferences .
+
+## Literature Review
+
+The factors affecting income, which are the main subject of this study, have also been investigated and addressed by various sources. Income is an element determined by various independent factors. Among these elements are age, gender, work, experience.
+
+  When it comes to gender discrimination, it was found that [@shambrook2011research] men received higher salaries than women. Paid significantly higher salaries for associates, bachelor's, master's and doctoral levels to cinema men with the same level of educational achievement. Women were only given higher salaries than men in the ”some college" education category.
+  According to Jennifer Shambrook [@shambrook2011research], the relationship of higher education with high income has been calculated by a positive relationship between education level and income. [@beaton1975influence]The results show that those with a master's or doctoral degree will be higher.Lower income levels than those with low educational achievement. The exception to this is for those with lower educational achievement and a research level of more than 20 years of management experience. 
+  As mentioned in the first paragraph, what makes education an exception is experience. [@davidson1978econometric]  Shows that the mean income level increases with increased years of experience.There is a significant difference between the income levels of those with less than one year of experience and those with more than five years of experience.For all other comparisons between groups, the difference in income level is highly significant, and there is a strong association between level of experience and level of salary.
+  In addition to the technology gained in the field of business, it is also very important which sector we specialize in.[@chaudhry2011exploring] The findings of the study show that the salary satisfaction score is very slightly higher for public sector organizations, depending on private sector organizations.Accordingly,managers in public organizations value job security more than their colleagues employed by private enterprises and administrations.
+
+  We examined the literature review conducted on and among the factors affecting income by dividing it into main parts. Now let's take a look at the situations in which we distribute income, that is, expenses and investment preferences.
+  Consumption expenditures, play an important role in economic growth as a driving force of the economy. As one of the main determinants of total demand, the increase in consumption expenditures affects the level of economic well-being of countries.[@perotti1994income] Due to this effect on the level of economic well-being, consumption expenditures have the property of being a leading indicator about the general state of the economy.
+  For this purpose, consumption functions were calculated in order to reveal the relationship of each expenditure group with total expenditure.[@uslu2018determining] Households allocate the largest share of their income to the housing, water, electricity, gas and other fuels expenditure group. However, education expenses also have a large share, while health expenditures are very low. While the government's spending is not very important in consumption  habits, the tax rate increases the unit of spending to a large extent.
+  Investing in Turkey is not used only to evaluate the remaining money.[@timur36enflasyonist] The recent economic fluctuations and inflation have caused the Turkish citizens not to want to keep their money in TL.For this reason, depositors tend to ignore the nature of national currency as a means of storing value and saving by turning to foreign currencies, which are known to have less inflationary effects, or investments that they think will provide protection from inflation.
+  On the other hand, it is believed that the concerns of the public about the national currency and the future negatively affect the life expectancy of many people, especially young households.[@ccalmacsur2018turkiye]
+It has been observed that people in this situation are generally turning to activities that can be characterized as “zero-sum”. The most popular of these activities, as evaluated in the study, were foreign exchange, gold, housing-land and the stock exchange. 
+
+\newpage
+# References {#references}
+<div id="refs"></div>
+
+```{r}
+
+```
+
